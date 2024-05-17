@@ -1,0 +1,326 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+   float: left;
+}
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    margin-bottom:10px;
+   
+}
+
+.menu a {
+    box-sizing: border-box;
+    text-decoration:none;
+    padding:15px;
+    color :white;
+    background-color: cornflowerblue;
+    margin: 5px;
+
+
+}
+.marquee{
+    background-color:black;
+    color: white;
+}
+
+
+
+       
+
+        .container{
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+           
+         
+        }
+        .card{
+            box-sizing:border-box;
+            width:300px;
+            padding:10px;
+            margin:5px;
+            justify-content:space-around;
+            background-color: rebeccapurple;
+        }
+      
+   .img-style{
+       width:310px;
+       height:250px;
+      
+   }
+
+   .card h1, p{
+       color:white;
+       text-align: center;
+   }
+     /*blog about start hearr*/
+#about{
+    min-height:40vh;
+    padding: 5rem 1rem;
+    font-size:4.6rem;
+    text-align: center;
+    justify-content:center;
+    text-justify: distribute-all-lines;
+    background-color:cadetblue;
+
+}
+
+.about-para{
+    color: white;
+    font-family: Tangerine;
+}
+#about p{
+    color:black;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* Contract Start hear ) */
+
+html, body {
+min-height: 100%;
+padding: 0;
+margin: 0;
+font-family: Roboto, Arial, sans-serif;
+font-size: 14px;
+color: #666;
+}
+h1 {
+margin: 0 0 20px;
+font-weight: 400;
+color: #1c87c9;
+}
+p {
+margin: 0 0 5px;
+}
+.main-block {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #1c87c9;
+}
+form {
+padding: 25px;
+margin: 25px;
+box-shadow: 0 2px 5px #f5f5f5; 
+background: #f5f5f5; 
+}
+.fas {
+margin: 25px 10px 0;
+font-size: 72px;
+color: #fff;
+}
+.fa-envelope {
+transform: rotate(-20deg);
+}
+.fa-at , .fa-mail-bulk{
+transform: rotate(10deg);
+}
+input, textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #1c87c9;
+outline: none;
+}
+input::placeholder {
+color: #666;
+}
+button {
+width: 100%;
+padding: 10px;
+border: none;
+background: #1c87c9; 
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+}
+button:hover {
+background: #2371a0;
+}    
+
+/* Contract ends hear ) */
+
+/* Menu Bar start ) */
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (max-width:600px) {
+
+        .menu{
+           
+            flex-direction: column;
+            padding:10px;
+            margin-bottom:15px;
+        }
+        
+        .menu a {
+            box-sizing: border-box;
+            text-decoration:none;
+            padding:15px;
+            color :white;
+            background-color: cornflowerblue;
+            margin: 10px 0; 
+            text-align: center;
+            border-radius: 10px;
+        
+        
+        }
+
+
+
+
+
+    .container{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color:rgba(46, 69, 146, 0.897);
+       
+     
+    }
+    .card{
+        box-sizing: bo;
+        width:300px;
+        box-shadow: 2px 4px 5px black;
+        padding:10px;
+            margin:10px 50px ;
+            flex-grow: 1;
+            justify-content:center;
+        background-color:rgba(106, 46, 146, 0.897);
+
+    }
+    .card:hover{
+        box-shadow: 10px 12px 5px white;
+
+    }
+  
+.img-style{
+   width:100%;
+}
+
+   }
+
+   @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+    
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    body{
+        background-color: grey;
+    }
+   nav{
+       text-decoration: none;
+   }
+
+
+    nav li{
+       
+        display:inline-block;
+        margin: 2rem;
+        padding: 1rem; 
+        transition: all 0.4s;   
+    }
+    nav li:last-child{
+        margin: 0;   
+    }
+    
+    nav li :hover{
+        background-color: #1913d5;
+        border-radius: 0.6rem;
+        
+        transform:scale(1.5)
+    }
+    
+    .nav-link{
+        font: size 1.8rem ;
+        color:white;
+        cursor:pointer;
+    }
+
+    .container{
+        box-sizing: border-box;
+     flex-flow: row wrap;
+     justify-content:flex-start;
+       
+        background-color:rgba(46, 69, 146, 0.897);
+       
+     
+    }
+    .card{
+        box-sizing: border-box;
+        width:300px;
+        box-shadow: 2px 4px 5px black;
+        padding:10px;               
+        background-color:rgba(106, 46, 146, 0.897);
+
+    }
+    .img-style{
+        width:100%;
+     }
+
+
+    .card:hover{
+        box-shadow: 10px 12px 5px white;
+
+    }
+  
+
+
+   }
+
+
